@@ -2,6 +2,10 @@
 
 This directory contains the complete ACRLPD (Action-Chunked Reinforcement Learning with Prior Data) integration with π₀ models for robotic manipulation tasks.
 
+**Early Preview — Not Production Ready**
+
+Please note that this is currently a demo and a work in progress. Many details are yet to be refined, and it is not yet a complete or fully functional training library. Please proceed with caution.
+
 ## Overview
 
 The framework provides end-to-end training infrastructure combining Q-chunking reinforcement learning with π₀ diffusion models. It includes data loading, agent implementation, training loops, and comprehensive evaluation systems.
@@ -549,3 +553,4 @@ python -m pytest ac_training/ -v --cov=ac_training
 ## License
 
 This project is part of the OpenPI framework. See the main project LICENSE for details.
+
